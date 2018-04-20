@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F10F1A9208A1C0700613D6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F10F1A8208A1C0700613D6E /* AppDelegate.swift */; };
+		9F10F1AB208A1C0700613D6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F10F1AA208A1C0700613D6E /* ViewController.swift */; };
+		9F10F1AE208A1C0700613D6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F10F1AC208A1C0700613D6E /* Main.storyboard */; };
+		9F10F1B1208A1C0700613D6E /* AccentureTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F10F1AF208A1C0700613D6E /* AccentureTask.xcdatamodeld */; };
+		9F10F1B3208A1C0700613D6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F10F1B2208A1C0700613D6E /* Assets.xcassets */; };
+		9F10F1B6208A1C0700613D6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F10F1B4208A1C0700613D6E /* LaunchScreen.storyboard */; };
+		9F10F1C1208A1C0700613D6E /* AccentureTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F10F1C0208A1C0700613D6E /* AccentureTaskTests.swift */; };
+		9F10F1CC208A1C0700613D6E /* AccentureTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F10F1CB208A1C0700613D6E /* AccentureTaskUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F10F1BD208A1C0700613D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F10F19D208A1C0700613D6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F10F1A4208A1C0700613D6E;
+			remoteInfo = AccentureTask;
+		};
+		9F10F1C8208A1C0700613D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F10F19D208A1C0700613D6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F10F1A4208A1C0700613D6E;
+			remoteInfo = AccentureTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F10F1A5208A1C0700613D6E /* AccentureTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccentureTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F10F1A8208A1C0700613D6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F10F1AA208A1C0700613D6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F10F1AD208A1C0700613D6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F10F1B0208A1C0700613D6E /* AccentureTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AccentureTask.xcdatamodel; sourceTree = "<group>"; };
+		9F10F1B2208A1C0700613D6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F10F1B5208A1C0700613D6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F10F1B7208A1C0700613D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F10F1BC208A1C0700613D6E /* AccentureTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccentureTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F10F1C0208A1C0700613D6E /* AccentureTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccentureTaskTests.swift; sourceTree = "<group>"; };
+		9F10F1C2208A1C0700613D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F10F1C7208A1C0700613D6E /* AccentureTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccentureTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F10F1CB208A1C0700613D6E /* AccentureTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccentureTaskUITests.swift; sourceTree = "<group>"; };
+		9F10F1CD208A1C0700613D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F10F1A2208A1C0700613D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F10F1B9208A1C0700613D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F10F1C4208A1C0700613D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F10F19C208A1C0700613D6E = {
+			isa = PBXGroup;
+			children = (
+				9F10F1A7208A1C0700613D6E /* AccentureTask */,
+				9F10F1BF208A1C0700613D6E /* AccentureTaskTests */,
+				9F10F1CA208A1C0700613D6E /* AccentureTaskUITests */,
+				9F10F1A6208A1C0700613D6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F10F1A6208A1C0700613D6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F10F1A5208A1C0700613D6E /* AccentureTask.app */,
+				9F10F1BC208A1C0700613D6E /* AccentureTaskTests.xctest */,
+				9F10F1C7208A1C0700613D6E /* AccentureTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F10F1A7208A1C0700613D6E /* AccentureTask */ = {
+			isa = PBXGroup;
+			children = (
+				9F10F1A8208A1C0700613D6E /* AppDelegate.swift */,
+				9F10F1AA208A1C0700613D6E /* ViewController.swift */,
+				9F10F1AC208A1C0700613D6E /* Main.storyboard */,
+				9F10F1B2208A1C0700613D6E /* Assets.xcassets */,
+				9F10F1B4208A1C0700613D6E /* LaunchScreen.storyboard */,
+				9F10F1B7208A1C0700613D6E /* Info.plist */,
+				9F10F1AF208A1C0700613D6E /* AccentureTask.xcdatamodeld */,
+			);
+			path = AccentureTask;
+			sourceTree = "<group>";
+		};
+		9F10F1BF208A1C0700613D6E /* AccentureTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F10F1C0208A1C0700613D6E /* AccentureTaskTests.swift */,
+				9F10F1C2208A1C0700613D6E /* Info.plist */,
+			);
+			path = AccentureTaskTests;
+			sourceTree = "<group>";
+		};
+		9F10F1CA208A1C0700613D6E /* AccentureTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F10F1CB208A1C0700613D6E /* AccentureTaskUITests.swift */,
+				9F10F1CD208A1C0700613D6E /* Info.plist */,
+			);
+			path = AccentureTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F10F1A4208A1C0700613D6E /* AccentureTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F10F1D0208A1C0700613D6E /* Build configuration list for PBXNativeTarget "AccentureTask" */;
+			buildPhases = (
+				9F10F1A1208A1C0700613D6E /* Sources */,
+				9F10F1A2208A1C0700613D6E /* Frameworks */,
+				9F10F1A3208A1C0700613D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AccentureTask;
+			productName = AccentureTask;
+			productReference = 9F10F1A5208A1C0700613D6E /* AccentureTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F10F1BB208A1C0700613D6E /* AccentureTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F10F1D3208A1C0700613D6E /* Build configuration list for PBXNativeTarget "AccentureTaskTests" */;
+			buildPhases = (
+				9F10F1B8208A1C0700613D6E /* Sources */,
+				9F10F1B9208A1C0700613D6E /* Frameworks */,
+				9F10F1BA208A1C0700613D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F10F1BE208A1C0700613D6E /* PBXTargetDependency */,
+			);
+			name = AccentureTaskTests;
+			productName = AccentureTaskTests;
+			productReference = 9F10F1BC208A1C0700613D6E /* AccentureTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F10F1C6208A1C0700613D6E /* AccentureTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F10F1D6208A1C0700613D6E /* Build configuration list for PBXNativeTarget "AccentureTaskUITests" */;
+			buildPhases = (
+				9F10F1C3208A1C0700613D6E /* Sources */,
+				9F10F1C4208A1C0700613D6E /* Frameworks */,
+				9F10F1C5208A1C0700613D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F10F1C9208A1C0700613D6E /* PBXTargetDependency */,
+			);
+			name = AccentureTaskUITests;
+			productName = AccentureTaskUITests;
+			productReference = 9F10F1C7208A1C0700613D6E /* AccentureTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F10F19D208A1C0700613D6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Hasan;
+				TargetAttributes = {
+					9F10F1A4208A1C0700613D6E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9F10F1BB208A1C0700613D6E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F10F1A4208A1C0700613D6E;
+					};
+					9F10F1C6208A1C0700613D6E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F10F1A4208A1C0700613D6E;
+					};
+				};
+			};
+			buildConfigurationList = 9F10F1A0208A1C0700613D6E /* Build configuration list for PBXProject "AccentureTask" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F10F19C208A1C0700613D6E;
+			productRefGroup = 9F10F1A6208A1C0700613D6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F10F1A4208A1C0700613D6E /* AccentureTask */,
+				9F10F1BB208A1C0700613D6E /* AccentureTaskTests */,
+				9F10F1C6208A1C0700613D6E /* AccentureTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F10F1A3208A1C0700613D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F10F1B6208A1C0700613D6E /* LaunchScreen.storyboard in Resources */,
+				9F10F1B3208A1C0700613D6E /* Assets.xcassets in Resources */,
+				9F10F1AE208A1C0700613D6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F10F1BA208A1C0700613D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F10F1C5208A1C0700613D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F10F1A1208A1C0700613D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F10F1AB208A1C0700613D6E /* ViewController.swift in Sources */,
+				9F10F1B1208A1C0700613D6E /* AccentureTask.xcdatamodeld in Sources */,
+				9F10F1A9208A1C0700613D6E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F10F1B8208A1C0700613D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F10F1C1208A1C0700613D6E /* AccentureTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F10F1C3208A1C0700613D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F10F1CC208A1C0700613D6E /* AccentureTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F10F1BE208A1C0700613D6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F10F1A4208A1C0700613D6E /* AccentureTask */;
+			targetProxy = 9F10F1BD208A1C0700613D6E /* PBXContainerItemProxy */;
+		};
+		9F10F1C9208A1C0700613D6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F10F1A4208A1C0700613D6E /* AccentureTask */;
+			targetProxy = 9F10F1C8208A1C0700613D6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F10F1AC208A1C0700613D6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F10F1AD208A1C0700613D6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F10F1B4208A1C0700613D6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F10F1B5208A1C0700613D6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F10F1CE208A1C0700613D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F10F1CF208A1C0700613D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F10F1D1208A1C0700613D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3Y36NHRVR;
+				INFOPLIST_FILE = AccentureTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hasan.AccentureTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F10F1D2208A1C0700613D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3Y36NHRVR;
+				INFOPLIST_FILE = AccentureTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hasan.AccentureTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F10F1D4208A1C0700613D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3Y36NHRVR;
+				INFOPLIST_FILE = AccentureTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hasan.AccentureTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccentureTask.app/AccentureTask";
+			};
+			name = Debug;
+		};
+		9F10F1D5208A1C0700613D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3Y36NHRVR;
+				INFOPLIST_FILE = AccentureTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hasan.AccentureTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccentureTask.app/AccentureTask";
+			};
+			name = Release;
+		};
+		9F10F1D7208A1C0700613D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3Y36NHRVR;
+				INFOPLIST_FILE = AccentureTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hasan.AccentureTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AccentureTask;
+			};
+			name = Debug;
+		};
+		9F10F1D8208A1C0700613D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3Y36NHRVR;
+				INFOPLIST_FILE = AccentureTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hasan.AccentureTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AccentureTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F10F1A0208A1C0700613D6E /* Build configuration list for PBXProject "AccentureTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F10F1CE208A1C0700613D6E /* Debug */,
+				9F10F1CF208A1C0700613D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F10F1D0208A1C0700613D6E /* Build configuration list for PBXNativeTarget "AccentureTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F10F1D1208A1C0700613D6E /* Debug */,
+				9F10F1D2208A1C0700613D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F10F1D3208A1C0700613D6E /* Build configuration list for PBXNativeTarget "AccentureTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F10F1D4208A1C0700613D6E /* Debug */,
+				9F10F1D5208A1C0700613D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F10F1D6208A1C0700613D6E /* Build configuration list for PBXNativeTarget "AccentureTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F10F1D7208A1C0700613D6E /* Debug */,
+				9F10F1D8208A1C0700613D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9F10F1AF208A1C0700613D6E /* AccentureTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F10F1B0208A1C0700613D6E /* AccentureTask.xcdatamodel */,
+			);
+			currentVersion = 9F10F1B0208A1C0700613D6E /* AccentureTask.xcdatamodel */;
+			path = AccentureTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9F10F19D208A1C0700613D6E /* Project object */;
+}
