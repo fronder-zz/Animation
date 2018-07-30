@@ -7,14 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		431E52AE2AFA2C0991E87324 /* Pods_AccentureTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ABBB6AF07BC40CD3A98090 /* Pods_AccentureTaskTests.framework */; };
+		9032CF33E9F9A9D124700A05 /* Pods_AccentureTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89BE95BF9B4EC96F5670EFA9 /* Pods_AccentureTask.framework */; };
+		98518B2E52D9CF0EB58E758B /* Pods_AccentureTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D24D9370266328BC805F277 /* Pods_AccentureTaskUITests.framework */; };
+		9F00ED33208D82BE00030328 /* ResultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F00ED32208D82BE00030328 /* ResultsExtension.swift */; };
+		9F00ED34208D82BE00030328 /* ResultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F00ED32208D82BE00030328 /* ResultsExtension.swift */; };
+		9F00ED35208D82BE00030328 /* ResultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F00ED32208D82BE00030328 /* ResultsExtension.swift */; };
+		9F00ED37208F099D00030328 /* WeatherDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F00ED36208F099D00030328 /* WeatherDetailsViewController.swift */; };
+		9F00ED38208F099D00030328 /* WeatherDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F00ED36208F099D00030328 /* WeatherDetailsViewController.swift */; };
+		9F00ED39208F099D00030328 /* WeatherDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F00ED36208F099D00030328 /* WeatherDetailsViewController.swift */; };
+		9F00ED3E208F14E100030328 /* PresentReverseAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F00ED3C208F14E100030328 /* PresentReverseAnimator.swift */; };
+		9F00ED3F208F14E100030328 /* PresentReverseAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F00ED3C208F14E100030328 /* PresentReverseAnimator.swift */; };
+		9F00ED40208F14E100030328 /* PresentReverseAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F00ED3C208F14E100030328 /* PresentReverseAnimator.swift */; };
+		9F00ED41208F14E100030328 /* RevealFromFrameAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F00ED3D208F14E100030328 /* RevealFromFrameAnimator.swift */; };
+		9F00ED42208F14E100030328 /* RevealFromFrameAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F00ED3D208F14E100030328 /* RevealFromFrameAnimator.swift */; };
+		9F00ED43208F14E100030328 /* RevealFromFrameAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F00ED3D208F14E100030328 /* RevealFromFrameAnimator.swift */; };
+		9F00ED4E20904B7000030328 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5C5F5D208C9E9800ED0303 /* WeatherData.swift */; };
+		9F00ED4F20904EA800030328 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F00ED5020904EA800030328 /* Realm.framework */; };
+		9F00ED5120904EAF00030328 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F00ED5220904EAF00030328 /* RealmSwift.framework */; };
+		9F00ED5320904F0E00030328 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F00ED5420904F0E00030328 /* Realm.framework */; };
+		9F00ED5520904F1800030328 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F00ED5620904F1800030328 /* RealmSwift.framework */; };
+		9F00ED5720904F2100030328 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F00ED5820904F2100030328 /* Realm.framework */; };
+		9F00ED5920904F2600030328 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F00ED5A20904F2600030328 /* RealmSwift.framework */; };
 		9F10F1A9208A1C0700613D6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F10F1A8208A1C0700613D6E /* AppDelegate.swift */; };
-		9F10F1AB208A1C0700613D6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F10F1AA208A1C0700613D6E /* ViewController.swift */; };
 		9F10F1AE208A1C0700613D6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F10F1AC208A1C0700613D6E /* Main.storyboard */; };
 		9F10F1B1208A1C0700613D6E /* AccentureTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F10F1AF208A1C0700613D6E /* AccentureTask.xcdatamodeld */; };
 		9F10F1B3208A1C0700613D6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F10F1B2208A1C0700613D6E /* Assets.xcassets */; };
 		9F10F1B6208A1C0700613D6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F10F1B4208A1C0700613D6E /* LaunchScreen.storyboard */; };
 		9F10F1C1208A1C0700613D6E /* AccentureTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F10F1C0208A1C0700613D6E /* AccentureTaskTests.swift */; };
 		9F10F1CC208A1C0700613D6E /* AccentureTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F10F1CB208A1C0700613D6E /* AccentureTaskUITests.swift */; };
+		9F10F1E0208A1D2C00613D6E /* WeatherListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F10F1DF208A1D2C00613D6E /* WeatherListViewController.swift */; };
+		9F10F1E1208A1D2C00613D6E /* WeatherListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F10F1DF208A1D2C00613D6E /* WeatherListViewController.swift */; };
+		9F10F1E2208A1D2C00613D6E /* WeatherListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F10F1DF208A1D2C00613D6E /* WeatherListViewController.swift */; };
+		9F10F1EE208A1EC300613D6E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F10F1ED208A1EC300613D6E /* BaseViewController.swift */; };
+		9F10F1EF208A1EC300613D6E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F10F1ED208A1EC300613D6E /* BaseViewController.swift */; };
+		9F10F1F0208A1EC300613D6E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F10F1ED208A1EC300613D6E /* BaseViewController.swift */; };
+		9F10F1F6208A261B00613D6E /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F10F1F5208A261B00613D6E /* RequestManager.m */; };
+		9F10F1F7208A261B00613D6E /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F10F1F5208A261B00613D6E /* RequestManager.m */; };
+		9F10F1F8208A261B00613D6E /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F10F1F5208A261B00613D6E /* RequestManager.m */; };
+		9F4790ED208D6FF4000A17E9 /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4790EC208D6FF4000A17E9 /* WeatherTableViewCell.swift */; };
+		9F4790EE208D6FF4000A17E9 /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4790EC208D6FF4000A17E9 /* WeatherTableViewCell.swift */; };
+		9F4790EF208D6FF4000A17E9 /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4790EC208D6FF4000A17E9 /* WeatherTableViewCell.swift */; };
+		9F4790F1208D7035000A17E9 /* WeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F4790F0208D7035000A17E9 /* WeatherTableViewCell.xib */; };
+		9F4790F2208D7035000A17E9 /* WeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F4790F0208D7035000A17E9 /* WeatherTableViewCell.xib */; };
+		9F4790F3208D7035000A17E9 /* WeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F4790F0208D7035000A17E9 /* WeatherTableViewCell.xib */; };
+		9F4790F6208D7103000A17E9 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4790F5208D7103000A17E9 /* BaseTableViewCell.swift */; };
+		9F4790F7208D7103000A17E9 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4790F5208D7103000A17E9 /* BaseTableViewCell.swift */; };
+		9F4790F8208D7103000A17E9 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4790F5208D7103000A17E9 /* BaseTableViewCell.swift */; };
+		9F5C5F53208C968300ED0303 /* WeatherObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5C5F52208C968300ED0303 /* WeatherObject.swift */; };
+		9F5C5F54208C968300ED0303 /* WeatherObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5C5F52208C968300ED0303 /* WeatherObject.swift */; };
+		9F5C5F55208C968300ED0303 /* WeatherObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5C5F52208C968300ED0303 /* WeatherObject.swift */; };
+		9F5C5F58208C9C8600ED0303 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5C5F57208C9C8600ED0303 /* DatabaseManager.swift */; };
+		9F5C5F59208C9C8600ED0303 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5C5F57208C9C8600ED0303 /* DatabaseManager.swift */; };
+		9F5C5F5A208C9C8600ED0303 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5C5F57208C9C8600ED0303 /* DatabaseManager.swift */; };
+		9F5C5F5E208C9E9800ED0303 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5C5F5D208C9E9800ED0303 /* WeatherData.swift */; };
+		9F5C5F60208C9E9800ED0303 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5C5F5D208C9E9800ED0303 /* WeatherData.swift */; };
+		9F5C5F62208CA33A00ED0303 /* WeatherDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5C5F61208CA33A00ED0303 /* WeatherDataManager.swift */; };
+		9F5C5F63208CA33A00ED0303 /* WeatherDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5C5F61208CA33A00ED0303 /* WeatherDataManager.swift */; };
+		9F5C5F64208CA33A00ED0303 /* WeatherDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5C5F61208CA33A00ED0303 /* WeatherDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +85,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35AA08D6759D03ED64E22D7C /* Pods-AccentureTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccentureTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-AccentureTask/Pods-AccentureTask.release.xcconfig"; sourceTree = "<group>"; };
+		60DDFA7BF3B99BB3CE1F7300 /* Pods-AccentureTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccentureTaskTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AccentureTaskTests/Pods-AccentureTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		6BD63B7367676EEC7D52D13D /* Pods-AccentureTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccentureTaskUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AccentureTaskUITests/Pods-AccentureTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		741FC5D72C386E25A52485C4 /* Pods-AccentureTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccentureTaskUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AccentureTaskUITests/Pods-AccentureTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D24D9370266328BC805F277 /* Pods_AccentureTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccentureTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84ABBB6AF07BC40CD3A98090 /* Pods_AccentureTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccentureTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89BE95BF9B4EC96F5670EFA9 /* Pods_AccentureTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccentureTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AEE3A9BD45A4945447AA786 /* Pods-AccentureTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccentureTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AccentureTask/Pods-AccentureTask.debug.xcconfig"; sourceTree = "<group>"; };
+		9F00ED32208D82BE00030328 /* ResultsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsExtension.swift; sourceTree = "<group>"; };
+		9F00ED36208F099D00030328 /* WeatherDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailsViewController.swift; sourceTree = "<group>"; };
+		9F00ED3C208F14E100030328 /* PresentReverseAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentReverseAnimator.swift; sourceTree = "<group>"; };
+		9F00ED3D208F14E100030328 /* RevealFromFrameAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RevealFromFrameAnimator.swift; sourceTree = "<group>"; };
+		9F00ED5020904EA800030328 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F00ED5220904EAF00030328 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F00ED5420904F0E00030328 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F00ED5620904F1800030328 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F00ED5820904F2100030328 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F00ED5A20904F2600030328 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F00ED5B2090539E00030328 /* XCUIApplication+Onboarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCUIApplication+Onboarding.swift"; sourceTree = "<group>"; };
 		9F10F1A5208A1C0700613D6E /* AccentureTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccentureTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F10F1A8208A1C0700613D6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9F10F1AA208A1C0700613D6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9F10F1AD208A1C0700613D6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F10F1B0208A1C0700613D6E /* AccentureTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AccentureTask.xcdatamodel; sourceTree = "<group>"; };
 		9F10F1B2208A1C0700613D6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +117,21 @@
 		9F10F1C7208A1C0700613D6E /* AccentureTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccentureTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F10F1CB208A1C0700613D6E /* AccentureTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccentureTaskUITests.swift; sourceTree = "<group>"; };
 		9F10F1CD208A1C0700613D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F10F1DF208A1D2C00613D6E /* WeatherListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListViewController.swift; sourceTree = "<group>"; };
+		9F10F1ED208A1EC300613D6E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9F10F1F1208A261B00613D6E /* AccentureTask-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AccentureTask-Bridging-Header.h"; sourceTree = "<group>"; };
+		9F10F1F2208A261B00613D6E /* AccentureTaskTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AccentureTaskTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		9F10F1F3208A261B00613D6E /* AccentureTaskUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AccentureTaskUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		9F10F1F4208A261B00613D6E /* RequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestManager.h; sourceTree = "<group>"; };
+		9F10F1F5208A261B00613D6E /* RequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestManager.m; sourceTree = "<group>"; };
+		9F4790EC208D6FF4000A17E9 /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
+		9F4790F0208D7035000A17E9 /* WeatherTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherTableViewCell.xib; sourceTree = "<group>"; };
+		9F4790F5208D7103000A17E9 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		9F5C5F52208C968300ED0303 /* WeatherObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherObject.swift; sourceTree = "<group>"; };
+		9F5C5F57208C9C8600ED0303 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		9F5C5F5D208C9E9800ED0303 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		9F5C5F61208CA33A00ED0303 /* WeatherDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataManager.swift; sourceTree = "<group>"; };
+		C0988B34026A4674A2D709AF /* Pods-AccentureTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccentureTaskTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AccentureTaskTests/Pods-AccentureTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +139,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F00ED5920904F2600030328 /* RealmSwift.framework in Frameworks */,
+				9F00ED5720904F2100030328 /* Realm.framework in Frameworks */,
+				9032CF33E9F9A9D124700A05 /* Pods_AccentureTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +149,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F00ED5120904EAF00030328 /* RealmSwift.framework in Frameworks */,
+				9F00ED4F20904EA800030328 /* Realm.framework in Frameworks */,
+				431E52AE2AFA2C0991E87324 /* Pods_AccentureTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +159,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F00ED5520904F1800030328 /* RealmSwift.framework in Frameworks */,
+				9F00ED5320904F0E00030328 /* Realm.framework in Frameworks */,
+				98518B2E52D9CF0EB58E758B /* Pods_AccentureTaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F00ED31208D826D00030328 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9F00ED32208D82BE00030328 /* ResultsExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9F00ED3A208F14D400030328 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9F00ED3B208F14E100030328 /* AnimationClasses */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9F00ED3B208F14E100030328 /* AnimationClasses */ = {
+			isa = PBXGroup;
+			children = (
+				9F00ED3C208F14E100030328 /* PresentReverseAnimator.swift */,
+				9F00ED3D208F14E100030328 /* RevealFromFrameAnimator.swift */,
+			);
+			path = AnimationClasses;
+			sourceTree = "<group>";
+		};
 		9F10F19C208A1C0700613D6E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +200,8 @@
 				9F10F1BF208A1C0700613D6E /* AccentureTaskTests */,
 				9F10F1CA208A1C0700613D6E /* AccentureTaskUITests */,
 				9F10F1A6208A1C0700613D6E /* Products */,
+				D1B4844A4FBCD3FDB7082270 /* Frameworks */,
+				E65E90C259CD32FE4415BB7B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +218,11 @@
 		9F10F1A7208A1C0700613D6E /* AccentureTask */ = {
 			isa = PBXGroup;
 			children = (
-				9F10F1A8208A1C0700613D6E /* AppDelegate.swift */,
-				9F10F1AA208A1C0700613D6E /* ViewController.swift */,
-				9F10F1AC208A1C0700613D6E /* Main.storyboard */,
-				9F10F1B2208A1C0700613D6E /* Assets.xcassets */,
-				9F10F1B4208A1C0700613D6E /* LaunchScreen.storyboard */,
-				9F10F1B7208A1C0700613D6E /* Info.plist */,
-				9F10F1AF208A1C0700613D6E /* AccentureTask.xcdatamodeld */,
+				9F10F1F9208A265A00613D6E /* BridgingHeader */,
+				9F10F1DC208A1C4F00613D6E /* Model */,
+				9F10F1DB208A1C4900613D6E /* View */,
+				9F10F1DA208A1C3F00613D6E /* Controller */,
+				9F10F1D9208A1C2300613D6E /* Resources */,
 			);
 			path = AccentureTask;
 			sourceTree = "<group>";
@@ -123,9 +240,185 @@
 			isa = PBXGroup;
 			children = (
 				9F10F1CB208A1C0700613D6E /* AccentureTaskUITests.swift */,
+				9F00ED5B2090539E00030328 /* XCUIApplication+Onboarding.swift */,
 				9F10F1CD208A1C0700613D6E /* Info.plist */,
 			);
 			path = AccentureTaskUITests;
+			sourceTree = "<group>";
+		};
+		9F10F1D9208A1C2300613D6E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9F10F1A8208A1C0700613D6E /* AppDelegate.swift */,
+				9F10F1AC208A1C0700613D6E /* Main.storyboard */,
+				9F10F1B4208A1C0700613D6E /* LaunchScreen.storyboard */,
+				9F10F1B2208A1C0700613D6E /* Assets.xcassets */,
+				9F10F1B7208A1C0700613D6E /* Info.plist */,
+				9F10F1AF208A1C0700613D6E /* AccentureTask.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9F10F1DA208A1C3F00613D6E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F10F1EC208A1EBC00613D6E /* BaseViewController */,
+				9F10F1DD208A1CE300613D6E /* WeatherList */,
+				9F10F1DE208A1CFC00613D6E /* WeatherDetails */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9F10F1DB208A1C4900613D6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F4790F4208D70ED000A17E9 /* BaseTableViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F10F1DC208A1C4F00613D6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F00ED3A208F14D400030328 /* Utils */,
+				9F00ED31208D826D00030328 /* Extension */,
+				9F5C5F5B208C9CCD00ED0303 /* Database */,
+				9F5C5F4B208C962500ED0303 /* WeatherModel */,
+				9F10F1E3208A1E5300613D6E /* RequestManager */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F10F1DD208A1CE300613D6E /* WeatherList */ = {
+			isa = PBXGroup;
+			children = (
+				9F4790EB208D6FC1000A17E9 /* View */,
+				9F10F1DF208A1D2C00613D6E /* WeatherListViewController.swift */,
+			);
+			path = WeatherList;
+			sourceTree = "<group>";
+		};
+		9F10F1DE208A1CFC00613D6E /* WeatherDetails */ = {
+			isa = PBXGroup;
+			children = (
+				9F00ED36208F099D00030328 /* WeatherDetailsViewController.swift */,
+			);
+			path = WeatherDetails;
+			sourceTree = "<group>";
+		};
+		9F10F1E3208A1E5300613D6E /* RequestManager */ = {
+			isa = PBXGroup;
+			children = (
+				9F10F1F4208A261B00613D6E /* RequestManager.h */,
+				9F10F1F5208A261B00613D6E /* RequestManager.m */,
+			);
+			path = RequestManager;
+			sourceTree = "<group>";
+		};
+		9F10F1EC208A1EBC00613D6E /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9F10F1ED208A1EC300613D6E /* BaseViewController.swift */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		9F10F1F9208A265A00613D6E /* BridgingHeader */ = {
+			isa = PBXGroup;
+			children = (
+				9F10F1F1208A261B00613D6E /* AccentureTask-Bridging-Header.h */,
+				9F10F1F2208A261B00613D6E /* AccentureTaskTests-Bridging-Header.h */,
+				9F10F1F3208A261B00613D6E /* AccentureTaskUITests-Bridging-Header.h */,
+			);
+			path = BridgingHeader;
+			sourceTree = "<group>";
+		};
+		9F4790EB208D6FC1000A17E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F4790EC208D6FF4000A17E9 /* WeatherTableViewCell.swift */,
+				9F4790F0208D7035000A17E9 /* WeatherTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F4790F4208D70ED000A17E9 /* BaseTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9F4790F5208D7103000A17E9 /* BaseTableViewCell.swift */,
+			);
+			path = BaseTableViewCell;
+			sourceTree = "<group>";
+		};
+		9F5C5F4B208C962500ED0303 /* WeatherModel */ = {
+			isa = PBXGroup;
+			children = (
+				9F5C5F4C208C963500ED0303 /* WeatherDataManager */,
+			);
+			path = WeatherModel;
+			sourceTree = "<group>";
+		};
+		9F5C5F4C208C963500ED0303 /* WeatherDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				9F5C5F61208CA33A00ED0303 /* WeatherDataManager.swift */,
+			);
+			path = WeatherDataManager;
+			sourceTree = "<group>";
+		};
+		9F5C5F56208C9C4700ED0303 /* DatabaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				9F5C5F57208C9C8600ED0303 /* DatabaseManager.swift */,
+			);
+			path = DatabaseManager;
+			sourceTree = "<group>";
+		};
+		9F5C5F5B208C9CCD00ED0303 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				9F5C5F56208C9C4700ED0303 /* DatabaseManager */,
+				9F5C5F5C208C9CD400ED0303 /* Objects */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		9F5C5F5C208C9CD400ED0303 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				9F5C5F52208C968300ED0303 /* WeatherObject.swift */,
+				9F5C5F5D208C9E9800ED0303 /* WeatherData.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		D1B4844A4FBCD3FDB7082270 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F00ED5A20904F2600030328 /* RealmSwift.framework */,
+				9F00ED5820904F2100030328 /* Realm.framework */,
+				9F00ED5620904F1800030328 /* RealmSwift.framework */,
+				9F00ED5420904F0E00030328 /* Realm.framework */,
+				9F00ED5220904EAF00030328 /* RealmSwift.framework */,
+				9F00ED5020904EA800030328 /* Realm.framework */,
+				89BE95BF9B4EC96F5670EFA9 /* Pods_AccentureTask.framework */,
+				84ABBB6AF07BC40CD3A98090 /* Pods_AccentureTaskTests.framework */,
+				7D24D9370266328BC805F277 /* Pods_AccentureTaskUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E65E90C259CD32FE4415BB7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AEE3A9BD45A4945447AA786 /* Pods-AccentureTask.debug.xcconfig */,
+				35AA08D6759D03ED64E22D7C /* Pods-AccentureTask.release.xcconfig */,
+				C0988B34026A4674A2D709AF /* Pods-AccentureTaskTests.debug.xcconfig */,
+				60DDFA7BF3B99BB3CE1F7300 /* Pods-AccentureTaskTests.release.xcconfig */,
+				741FC5D72C386E25A52485C4 /* Pods-AccentureTaskUITests.debug.xcconfig */,
+				6BD63B7367676EEC7D52D13D /* Pods-AccentureTaskUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,9 +428,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F10F1D0208A1C0700613D6E /* Build configuration list for PBXNativeTarget "AccentureTask" */;
 			buildPhases = (
+				24FD7980B506EC1BD4D620EE /* [CP] Check Pods Manifest.lock */,
 				9F10F1A1208A1C0700613D6E /* Sources */,
 				9F10F1A2208A1C0700613D6E /* Frameworks */,
 				9F10F1A3208A1C0700613D6E /* Resources */,
+				5C6668D53FC187B5D983690B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +447,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F10F1D3208A1C0700613D6E /* Build configuration list for PBXNativeTarget "AccentureTaskTests" */;
 			buildPhases = (
+				E4DE54B6B2A96D6232AE708B /* [CP] Check Pods Manifest.lock */,
 				9F10F1B8208A1C0700613D6E /* Sources */,
 				9F10F1B9208A1C0700613D6E /* Frameworks */,
 				9F10F1BA208A1C0700613D6E /* Resources */,
@@ -170,6 +466,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F10F1D6208A1C0700613D6E /* Build configuration list for PBXNativeTarget "AccentureTaskUITests" */;
 			buildPhases = (
+				E6832D4E808983007130D2AE /* [CP] Check Pods Manifest.lock */,
 				9F10F1C3208A1C0700613D6E /* Sources */,
 				9F10F1C4208A1C0700613D6E /* Frameworks */,
 				9F10F1C5208A1C0700613D6E /* Resources */,
@@ -196,15 +493,18 @@
 				TargetAttributes = {
 					9F10F1A4208A1C0700613D6E = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					9F10F1BB208A1C0700613D6E = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 9F10F1A4208A1C0700613D6E;
 					};
 					9F10F1C6208A1C0700613D6E = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 9F10F1A4208A1C0700613D6E;
 					};
@@ -235,6 +535,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F4790F1208D7035000A17E9 /* WeatherTableViewCell.xib in Resources */,
 				9F10F1B6208A1C0700613D6E /* LaunchScreen.storyboard in Resources */,
 				9F10F1B3208A1C0700613D6E /* Assets.xcassets in Resources */,
 				9F10F1AE208A1C0700613D6E /* Main.storyboard in Resources */,
@@ -245,6 +546,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F4790F2208D7035000A17E9 /* WeatherTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,18 +554,112 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F4790F3208D7035000A17E9 /* WeatherTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24FD7980B506EC1BD4D620EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AccentureTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C6668D53FC187B5D983690B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AccentureTask/Pods-AccentureTask-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AccentureTask/Pods-AccentureTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4DE54B6B2A96D6232AE708B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AccentureTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6832D4E808983007130D2AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AccentureTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9F10F1A1208A1C0700613D6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F10F1AB208A1C0700613D6E /* ViewController.swift in Sources */,
+				9F00ED37208F099D00030328 /* WeatherDetailsViewController.swift in Sources */,
+				9F4790ED208D6FF4000A17E9 /* WeatherTableViewCell.swift in Sources */,
+				9F5C5F58208C9C8600ED0303 /* DatabaseManager.swift in Sources */,
+				9F10F1F6208A261B00613D6E /* RequestManager.m in Sources */,
+				9F00ED33208D82BE00030328 /* ResultsExtension.swift in Sources */,
+				9F00ED3E208F14E100030328 /* PresentReverseAnimator.swift in Sources */,
+				9F10F1EE208A1EC300613D6E /* BaseViewController.swift in Sources */,
+				9F10F1E0208A1D2C00613D6E /* WeatherListViewController.swift in Sources */,
+				9F4790F6208D7103000A17E9 /* BaseTableViewCell.swift in Sources */,
+				9F00ED41208F14E100030328 /* RevealFromFrameAnimator.swift in Sources */,
 				9F10F1B1208A1C0700613D6E /* AccentureTask.xcdatamodeld in Sources */,
+				9F5C5F53208C968300ED0303 /* WeatherObject.swift in Sources */,
+				9F5C5F62208CA33A00ED0303 /* WeatherDataManager.swift in Sources */,
+				9F5C5F5E208C9E9800ED0303 /* WeatherData.swift in Sources */,
 				9F10F1A9208A1C0700613D6E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +668,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F5C5F63208CA33A00ED0303 /* WeatherDataManager.swift in Sources */,
+				9F10F1EF208A1EC300613D6E /* BaseViewController.swift in Sources */,
+				9F00ED4E20904B7000030328 /* WeatherData.swift in Sources */,
+				9F00ED38208F099D00030328 /* WeatherDetailsViewController.swift in Sources */,
 				9F10F1C1208A1C0700613D6E /* AccentureTaskTests.swift in Sources */,
+				9F10F1E1208A1D2C00613D6E /* WeatherListViewController.swift in Sources */,
+				9F10F1F7208A261B00613D6E /* RequestManager.m in Sources */,
+				9F5C5F54208C968300ED0303 /* WeatherObject.swift in Sources */,
+				9F00ED42208F14E100030328 /* RevealFromFrameAnimator.swift in Sources */,
+				9F4790EE208D6FF4000A17E9 /* WeatherTableViewCell.swift in Sources */,
+				9F00ED3F208F14E100030328 /* PresentReverseAnimator.swift in Sources */,
+				9F4790F7208D7103000A17E9 /* BaseTableViewCell.swift in Sources */,
+				9F5C5F59208C9C8600ED0303 /* DatabaseManager.swift in Sources */,
+				9F00ED34208D82BE00030328 /* ResultsExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +689,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F5C5F64208CA33A00ED0303 /* WeatherDataManager.swift in Sources */,
+				9F10F1F0208A1EC300613D6E /* BaseViewController.swift in Sources */,
+				9F00ED39208F099D00030328 /* WeatherDetailsViewController.swift in Sources */,
 				9F10F1CC208A1C0700613D6E /* AccentureTaskUITests.swift in Sources */,
+				9F10F1E2208A1D2C00613D6E /* WeatherListViewController.swift in Sources */,
+				9F10F1F8208A261B00613D6E /* RequestManager.m in Sources */,
+				9F5C5F55208C968300ED0303 /* WeatherObject.swift in Sources */,
+				9F00ED43208F14E100030328 /* RevealFromFrameAnimator.swift in Sources */,
+				9F4790EF208D6FF4000A17E9 /* WeatherTableViewCell.swift in Sources */,
+				9F5C5F60208C9E9800ED0303 /* WeatherData.swift in Sources */,
+				9F00ED40208F14E100030328 /* PresentReverseAnimator.swift in Sources */,
+				9F4790F8208D7103000A17E9 /* BaseTableViewCell.swift in Sources */,
+				9F5C5F5A208C9C8600ED0303 /* DatabaseManager.swift in Sources */,
+				9F00ED35208D82BE00030328 /* ResultsExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,14 +850,18 @@
 		};
 		9F10F1D1208A1C0700613D6E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AEE3A9BD45A4945447AA786 /* Pods-AccentureTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X3Y36NHRVR;
-				INFOPLIST_FILE = AccentureTask/Info.plist;
+				INFOPLIST_FILE = AccentureTask/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hasan.AccentureTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AccentureTask/BridgingHeader/AccentureTask-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -443,14 +869,17 @@
 		};
 		9F10F1D2208A1C0700613D6E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35AA08D6759D03ED64E22D7C /* Pods-AccentureTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X3Y36NHRVR;
-				INFOPLIST_FILE = AccentureTask/Info.plist;
+				INFOPLIST_FILE = AccentureTask/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hasan.AccentureTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AccentureTask/BridgingHeader/AccentureTask-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,48 +887,59 @@
 		};
 		9F10F1D4208A1C0700613D6E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0988B34026A4674A2D709AF /* Pods-AccentureTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AccentureTask.app/AccentureTask";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X3Y36NHRVR;
 				INFOPLIST_FILE = AccentureTaskTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hasan.AccentureTaskTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AccentureTask/BridgingHeader/AccentureTaskTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccentureTask.app/AccentureTask";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
 		};
 		9F10F1D5208A1C0700613D6E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60DDFA7BF3B99BB3CE1F7300 /* Pods-AccentureTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AccentureTask.app/AccentureTask";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X3Y36NHRVR;
 				INFOPLIST_FILE = AccentureTaskTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hasan.AccentureTaskTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AccentureTask/BridgingHeader/AccentureTaskTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccentureTask.app/AccentureTask";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
 		};
 		9F10F1D7208A1C0700613D6E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 741FC5D72C386E25A52485C4 /* Pods-AccentureTaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X3Y36NHRVR;
 				INFOPLIST_FILE = AccentureTaskUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hasan.AccentureTaskUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AccentureTask/BridgingHeader/AccentureTaskUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = AccentureTask;
@@ -508,14 +948,17 @@
 		};
 		9F10F1D8208A1C0700613D6E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BD63B7367676EEC7D52D13D /* Pods-AccentureTaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X3Y36NHRVR;
 				INFOPLIST_FILE = AccentureTaskUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hasan.AccentureTaskUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AccentureTask/BridgingHeader/AccentureTaskUITests-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = AccentureTask;
